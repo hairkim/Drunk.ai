@@ -1,0 +1,67 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --------------------
+# Virtual Environments
+# --------------------
+.venv/
+venv/
+ENV/
+env/
+
+# --------------------
+# Environment Variables
+# --------------------
+.env
+.env.*
+!.env.example
+
+# --------------------
+# Logs
+# --------------------
+*.log
+logs/
+
+# --------------------
+# Caches / Tooling
+# --------------------
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Coverage / Reports
+# --------------------
+.coverage
+htmlcov/
+coverage.xml
+
+# --------------------
+# OS
+# --------------------
+Thumbs.db

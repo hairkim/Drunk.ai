@@ -1,0 +1,140 @@
+.main_container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    min-height: 10vh;
+    max-height: 15vh;
+    width: 100%;
+    padding: 0 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.header h1 {
+    margin: 0.67em 0 0 0;
+}
+
+.header h4 {
+    color: gray;
+    margin: 0.05em 0 0 0;
+}
+
+.main_content {
+    display: flex;
+    height: 85vh;
+}
+
+.left_side {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messages_box {
+    height: 80%;
+    width: 100%;
+    border: 1px solid white;
+    overflow-y: scroll;
+    border-radius: 1rem;
+    margin: 0 0 2rem 0;
+}
+
+.default_message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.input_form {
+    width: 80%;
+}
+
+
+input[type=text]{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 1rem 0.5rem;
+}
+
+.right_side {
+    width: 30%;
+    height: 90%;
+}
+
+.bot_information {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 50%;
+    border: 1px solid white;
+    margin: 2rem;
+    justify-content: center;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.buttons button {
+    padding: 2rem;
+    background-color: rgb(74, 72, 72);
+}
+
+/* .create_bot {
+    background-color: rgb(0, 255, 0);
+}
+
+.give_shot {
+    background-color: rgb(145, 148, 1);
+} */
+
+.messages_container {
+    width: auto;
+    margin: 1rem;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.messages {
+    display: flex;
+    width: 100%;
+}
+
+.messages.user {
+    justify-content: flex-end;
+}
+
+.messages.chat {
+    justify-content: flex-start;
+}
+
+.user_message_wrapper {
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgb(54, 67, 251);
+}
+
+.chat_message_wrapper {
+    max-width: 80%;
+    padding: 1rem;
+    border-radius: 2rem;
+    background:rgb(74, 72, 72)
+}
